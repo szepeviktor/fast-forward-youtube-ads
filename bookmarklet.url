@@ -1,0 +1,1 @@
+javascript:void%20function(){document.querySelector(%22%23container%20video.html5-main-video%22).playbackRate=10,document.querySelector(%22[id^=ad-text].ytp-ad-skip-button-text%22).click()}();
