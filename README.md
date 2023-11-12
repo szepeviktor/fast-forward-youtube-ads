@@ -14,3 +14,5 @@ Set name to ⏩
 document.querySelector("#container video.html5-main-video").playbackRate = 10;
 document.querySelector("[id^=ad-text].ytp-ad-skip-button-text").click();
 ```
+
+Made with `chriszarate/bookmarkleter`
