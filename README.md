@@ -12,7 +12,7 @@ Set name to ⏩
 
 ```javascript
 document.querySelector("#container video.html5-main-video").playbackRate = 9;
-document.querySelector("[id^=ad-text].ytp-ad-skip-button-text").click();
+document.querySelector("[id^=skip-button].ytp-skip-ad-button").click();
 ```
 
 Made with `chriszarate/bookmarkleter`
