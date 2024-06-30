@@ -1,1 +1,1 @@
-javascript:void%20function(){var%20a=document.querySelector(%22[id^=skip-button].ytp-skip-ad-button%22);if(null!==typeof%20a)a.click();else{var%20b=document.querySelector(%22%23container%20video.html5-main-video%22);b.currentTime=b.duration-1,b.playbackRate=2}}();
+javascript:void%20function(){var%20a=document.querySelector(%22[id^=skip-button].ytp-skip-ad-button%22);if(null!==a)a.click();else{var%20b=document.querySelector(%22%23container%20video.html5-main-video%22);b.currentTime=b.duration-1,b.playbackRate=2}}();
