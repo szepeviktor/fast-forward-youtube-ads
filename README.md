@@ -12,7 +12,7 @@ Set name to ⏩
 
 ```javascript
 var skipButton = document.querySelector("[id^=skip-button].ytp-skip-ad-button");
-if (typeof skipButton !== null) {
+if (skipButton !== null) {
     skipButton.click();
 } else {
     var video = document.querySelector("#container video.html5-main-video");
