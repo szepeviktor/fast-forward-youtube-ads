@@ -11,8 +11,14 @@ Set name to ⏩
 ## Source code
 
 ```javascript
-document.querySelector("#container video.html5-main-video").playbackRate = 9;
-document.querySelector("[id^=skip-button].ytp-skip-ad-button").click();
+var skipButton = document.querySelector("[id^=skip-button].ytp-skip-ad-button");
+if (typeof skipButton !== null) {
+    skipButton.click();
+} else {
+    var video = document.querySelector("#container video.html5-main-video");
+    video.currentTime = video.duration - 1;
+    video.playbackRate = 2;
+}
 ```
 
 Made with `chriszarate/bookmarkleter`
