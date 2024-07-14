@@ -15,7 +15,7 @@ var skipButton = document.querySelector("[id^=skip-button].ytp-skip-ad-button");
 if (skipButton !== null) {
     skipButton.click();
 } else {
-    var video = document.querySelector("#full-bleed-container video.html5-main-video");
+    var video = document.querySelector("video.html5-main-video[src]");
     video.currentTime = video.duration - 1;
     video.playbackRate = 2;
 }
